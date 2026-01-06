@@ -4,22 +4,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class ClientsController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(): void
     {
-        //
+        echo "Listagem de clientes";
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(): void
     {
-        //
+        echo "Exibir formulario para novo cliente";
     }
 
     /**
